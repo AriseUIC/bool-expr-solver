@@ -17,7 +17,7 @@ public class BooleanExpressionSolverTest {
 	ByteArrayOutputStream systemOut = new ByteArrayOutputStream();
 	
 	@Test
-	public void test_or() {
+	public void or_test() {
 		BooleanExpressionSolver bes = new BooleanExpressionSolver();
 		try {
 			
@@ -38,7 +38,7 @@ public class BooleanExpressionSolverTest {
 	}
 	
 	@Test
-	public void test_and() {
+	public void and_test() {
 		BooleanExpressionSolver bes = new BooleanExpressionSolver();
 		try {
 			
@@ -60,7 +60,7 @@ public class BooleanExpressionSolverTest {
 
 
 	@Test
-	public void test_not() {
+	public void not_test() {
 		BooleanExpressionSolver bes = new BooleanExpressionSolver();
 		try {
 			
@@ -81,7 +81,7 @@ public class BooleanExpressionSolverTest {
 	}
 	
 	@Test
-	public void test_equals() {
+	public void equals_test() {
 		BooleanExpressionSolver bes = new BooleanExpressionSolver();
 		try {
 			
@@ -102,7 +102,7 @@ public class BooleanExpressionSolverTest {
 	}
 	
 	@Test
-	public void test_xor() {
+	public void xor_test() {
 		BooleanExpressionSolver bes = new BooleanExpressionSolver();
 		try {
 			
@@ -140,8 +140,5 @@ public class BooleanExpressionSolverTest {
 			
 			fail("Unexpected"+ex.getStackTrace());
 		}
-		//fail("Not yet implemented");
 	}
-	
-	
 }

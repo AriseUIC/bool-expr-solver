@@ -13,6 +13,7 @@ import org.junit.Test;
 public class ComputeExpression {
 
 	ByteArrayOutputStream systemOut = new ByteArrayOutputStream();
+	
 	@Test
 	public void expressions_test() {
 		BooleanExpressionSolver bes = new BooleanExpressionSolver();
@@ -51,5 +52,4 @@ public class ComputeExpression {
 			fail("Unexpected"+ex.getStackTrace());
 		}
 	}
-
 }
